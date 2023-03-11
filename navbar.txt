@@ -1,0 +1,66 @@
+
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: none;
+    align-items: center;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #232d6041;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a.btn-first{
+    background: linear-gradient(45deg, #259e358f, #222585c9);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #e2cfc5;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.404);
+}
+nav ul li a.btn-second{
+    background: transparent;
+    background: linear-gradient(65deg, #259e3583, #2225859c);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #e2cfc5;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.404);
+}
+nav ul li a.btn:hover
+{
+    background: linear-gradient(to top, #259e3556 15%, #e2cfc5 100%, #22258598 25%);
+    border: none;
+    color: #e2cfc5;
+    box-shadow: 5px 5px 10px rgb(29, 34, 2);
+    transition: 0.3s;
+}
+
+
+  <div class="container">
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a class="btn btn-first" href="mecontact.html">Home</a></li>
+          <li><a class="btn btn-second" href="contactme.html">Contact Me</a></li>
+          <li><a class="btn btn-second" href="crochetcollections.html">Perlita's Crochet Collections</a></li>
+          <div class="social-links">
+            <a href="https://www.instagram.com/perlitas_crochet/"><i class="fab fa-instagram"></i>INSTAGRAM</a>
+          </div>
+        </ul>
+      </nav>
+    </div>
